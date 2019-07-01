@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7530" started-at="2019-07-01T17:47:38Z" finished-at="2019-07-01T17:47:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7530" started-at="2019-07-01T17:47:38Z" finished-at="2019-07-01T17:47:46Z">
+      <class name="Login_Tests.Login_Test">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Login_Tests.Login_Test@6fa38a]" name="preCondition" is-config="true" duration-ms="5720" started-at="2019-07-01T17:47:38Z" finished-at="2019-07-01T17:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="InvalidLoginToHomePage()[pri:0, instance:Login_Tests.Login_Test@6fa38a]" name="InvalidLoginToHomePage" duration-ms="5" started-at="2019-07-01T17:47:44Z" finished-at="2019-07-01T17:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginToHomePage -->
+        <test-method status="PASS" signature="LoginToHomePage()[pri:0, instance:Login_Tests.Login_Test@6fa38a]" name="LoginToHomePage" duration-ms="1536" started-at="2019-07-01T17:47:44Z" finished-at="2019-07-01T17:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToHomePage -->
+        <test-method status="PASS" signature="postConditoin()[pri:0, instance:Login_Tests.Login_Test@6fa38a]" name="postConditoin" is-config="true" duration-ms="230" started-at="2019-07-01T17:47:45Z" finished-at="2019-07-01T17:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditoin -->
+      </class> <!-- Login_Tests.Login_Test -->
+      <class name="Login_Tests.Add_User_Test">
+        <test-method status="PASS" signature="Add_Business_User_Test()[pri:0, instance:Login_Tests.Add_User_Test@a3ffec]" name="Add_Business_User_Test" duration-ms="1" started-at="2019-07-01T17:47:45Z" finished-at="2019-07-01T17:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Business_User_Test -->
+      </class> <!-- Login_Tests.Add_User_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
