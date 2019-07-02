@@ -1,67 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Enter User Name Steps completed]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Next Button Steps completed]]>
-    </line>
-    <line>
-      <![CDATA[Enter OTP Steps completed]]>
-    </line>
-    <line>
-      <![CDATA[Verify OTP Steps completed]]>
-    </line>
-    <line>
-      <![CDATA[Enter Password Steps completed]]>
-    </line>
-    <line>
-      <![CDATA[Capture the Home Page Steps completed]]>
-    </line>
-    <line>
-      <![CDATA[Login is Success]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15552" started-at="2019-07-02T13:31:07Z" finished-at="2019-07-02T13:31:22Z">
+  <suite name="Default suite" duration-ms="7721" started-at="2019-07-02T17:08:28Z" finished-at="2019-07-02T17:08:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15552" started-at="2019-07-02T13:31:07Z" finished-at="2019-07-02T13:31:22Z">
+    <test name="Default test" duration-ms="7721" started-at="2019-07-02T17:08:28Z" finished-at="2019-07-02T17:08:36Z">
       <class name="Login_Tests.Login_Test">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:Login_Tests.Login_Test@51565ec2]" name="preCondition" is-config="true" duration-ms="6328" started-at="2019-07-02T19:01:07Z" finished-at="2019-07-02T19:01:13Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Login_Tests.Login_Test@3bb9a3ff]" name="preCondition" is-config="true" duration-ms="7617" started-at="2019-07-02T22:38:28Z" finished-at="2019-07-02T22:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="InvalidLoginToHomePage()[pri:0, instance:Login_Tests.Login_Test@51565ec2]" name="InvalidLoginToHomePage" duration-ms="5" started-at="2019-07-02T19:01:13Z" finished-at="2019-07-02T19:01:13Z">
+        <test-method status="PASS" signature="InvalidLoginToHomePage()[pri:0, instance:Login_Tests.Login_Test@3bb9a3ff]" name="InvalidLoginToHomePage" duration-ms="5" started-at="2019-07-02T22:38:36Z" finished-at="2019-07-02T22:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLoginToHomePage -->
-        <test-method status="PASS" signature="LoginToHomePage()[pri:0, instance:Login_Tests.Login_Test@51565ec2]" name="LoginToHomePage" duration-ms="9118" started-at="2019-07-02T19:01:13Z" finished-at="2019-07-02T19:01:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Enter User Name Steps completed]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Next Button Steps completed]]>
-            </line>
-            <line>
-              <![CDATA[Enter OTP Steps completed]]>
-            </line>
-            <line>
-              <![CDATA[Verify OTP Steps completed]]>
-            </line>
-            <line>
-              <![CDATA[Enter Password Steps completed]]>
-            </line>
-            <line>
-              <![CDATA[Capture the Home Page Steps completed]]>
-            </line>
-            <line>
-              <![CDATA[Login is Success]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LoginToHomePage -->
-        <test-method status="PASS" signature="postConditoin()[pri:0, instance:Login_Tests.Login_Test@51565ec2]" name="postConditoin" is-config="true" duration-ms="80" started-at="2019-07-02T19:01:22Z" finished-at="2019-07-02T19:01:22Z">
+        <test-method status="PASS" signature="postConditoin()[pri:0, instance:Login_Tests.Login_Test@3bb9a3ff]" name="postConditoin" is-config="true" duration-ms="79" started-at="2019-07-02T22:38:36Z" finished-at="2019-07-02T22:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postConditoin -->
