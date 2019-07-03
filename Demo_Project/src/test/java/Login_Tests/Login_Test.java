@@ -17,7 +17,7 @@ public class Login_Test extends TestBase
 {
 	Login_Page lp;
 	private static Logger log=LogManager.getLogger(Login_Test.class.getName());
-	//@Test
+	@Test
 	public void LoginToHomePage() throws IOException
 	{
 		lp=new Login_Page(driver);
@@ -28,9 +28,15 @@ public class Login_Test extends TestBase
 		System.out.println("---------------------"+pass);
 		//lp.LoginToHome(user,pass);
 		String expectedValue="Help & Support";
+		try{
 		Assert.assertEquals(Login_Page.getLoginPage(), expectedValue);
 		Reporter.log("Login is Success");
-		log.info("Login Successful");
+		}
+		catch(Exception e)
+		{
+			Reporter.log("Login is Failed Because of Validation");
+			log.info("Login is Failed Because of Validation");
+		}
 	}
 	@Test
 	public void InvalidLoginToHomePage()

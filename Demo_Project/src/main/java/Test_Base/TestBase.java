@@ -97,5 +97,4 @@ public class TestBase{
 		return null;		
 		}
 	}
-	//Getting SCreenShots
 }
